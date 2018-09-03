@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<VoxelMaterials>
+
+		<!-- Zinc_01 -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Zinc_01</SubtypeId>
+			</Id>
+			<MaterialTypeName>Rock</MaterialTypeName>
+			<MinedOre>Zinc</MinedOre>
+			<MinedOreRatio>1</MinedOreRatio>
+			<CanBeHarvested>true</CanBeHarvested>
+			<IsRare>true</IsRare>
+			<IsIndestructible>false</IsIndestructible>
+			<DamageRatio>0.4</DamageRatio>
+			<ParticleEffect>Collision_Meteor</ParticleEffect>
+			
+			<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
+			<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
+			<SpecularPower>10</SpecularPower>
+			<SpecularShininess>1.5</SpecularShininess>
+
+			<VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
+			<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
+			<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+		</VoxelMaterial>
+
+	</VoxelMaterials>
+</Definitions>

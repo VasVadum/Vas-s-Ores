@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+	 <!-- Classes: LargeBlocks,SmallBlocks,Components,Ammo,BaseComponents,Electronics,ConstructionComponents
+	 ToolsIngots,CommonMetals,PreciousMetals,Solids,EnergeticIngots,Ice,OxygenBottles,HydrogenBottles -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="SpodumeneOreToIngot" />
+		<Entry Class="Ingots" BlueprintSubtypeId="ZincOreToIngot" />
+
+		<Entry Class="Solids" BlueprintSubtypeId="SpodumeneOreToIngot" />
+		<Entry Class="CommonMetals" BlueprintSubtypeId="ZincOreToIngot" />
+
+	</BlueprintClassEntries>
+</Definitions>

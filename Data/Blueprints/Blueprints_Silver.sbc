@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SilverOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="0.78" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.03" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.14" TypeId="Ingot" SubtypeId="Silver" />
+				<Item Amount="0.05" TypeId="Ingot" SubtypeId="Zinc" />
+			</Results>
+			<BaseProductionTimeInSeconds>1.98880952380952</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ScrapToIronIngot</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_IronIngot</DisplayName>
+			<Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Scrap" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.23" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.22" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Silver" />
+				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Platinum" />
+			</Results>
+			<BaseProductionTimeInSeconds>13.1190476190476</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>

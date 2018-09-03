@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>UraniumOreToIngot</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="0.68" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.06" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.03" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.04" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="0.16" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Zinc" />
+			</Results>
+			<BaseProductionTimeInSeconds>92.3088888888889</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>
