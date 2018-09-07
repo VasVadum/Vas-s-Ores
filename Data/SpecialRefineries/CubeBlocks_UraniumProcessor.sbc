@@ -4,7 +4,7 @@
 		<Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 			<Id>
 				<TypeId>Refinery</TypeId>
-				<SubtypeId>Blast Furnace</SubtypeId>
+				<SubtypeId>Uranium Furnace</SubtypeId>
 			</Id>
 			<DisplayName>Uranium Processor</DisplayName>
 			<Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>

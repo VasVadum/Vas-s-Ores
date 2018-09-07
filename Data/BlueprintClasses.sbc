@@ -3,6 +3,19 @@
 	<BlueprintClassEntries>
 	 <!-- Classes: LargeBlocks,SmallBlocks,Components,Ammo,BaseComponents,Electronics,ConstructionComponents
 	 ToolsIngots,CommonMetals,PreciousMetals,Solids,EnergeticIngots,Ice,OxygenBottles,HydrogenBottles -->
+	 
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Zinc Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Gold Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Cobalt Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Spodumene Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Iron Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Magnesium Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Nickel Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Platinum Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Silicon Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Silver Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Stone Furnace" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Uranium Furnace" />
 
 		<Entry Class="Ingots" BlueprintSubtypeId="SpodumeneOreToIngot" />
 		<Entry Class="Ingots" BlueprintSubtypeId="ZincOreToIngot" />
