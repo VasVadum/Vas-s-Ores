@@ -13,18 +13,41 @@
 			<MinedOreRatio>1</MinedOreRatio>
 			<CanBeHarvested>true</CanBeHarvested>
 			<IsRare>true</IsRare>
-			<IsIndestructible>false</IsIndestructible>
-			<DamageRatio>0.4</DamageRatio>
-			<ParticleEffect>Collision_Meteor</ParticleEffect>
-			
-			<DiffuseXZ>Textures\Voxels\Platinum_01_ForAxisXZ_de.dds</DiffuseXZ>
-			<NormalXZ>Textures\Voxels\Platinum_01_ForAxisXZ_ns.dds</NormalXZ>
-			<SpecularPower>10</SpecularPower>
-			<SpecularShininess>1.5</SpecularShininess>
 
 			<VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
 			<ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY> 
 			<NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+			<ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
+
+			<SimpleTilingSetup>
+				<InitialScale>2</InitialScale>
+				<ScaleMultiplier>3</ScaleMultiplier>
+				<InitialDistance>5</InitialDistance>
+				<DistanceMultiplier>3</DistanceMultiplier>
+
+				<Far1Distance>12</Far1Distance>
+				<Far1Scale>12</Far1Scale>
+
+				<Far2Distance>100</Far2Distance>
+				<Far2Scale>30</Far2Scale>
+			</SimpleTilingSetup>
+
+			<InitialScale>1.5</InitialScale>
+			<ScaleMultiplier>5</ScaleMultiplier>
+			<InitialDistance>5</InitialDistance>
+			<DistanceMultiplier>4</DistanceMultiplier>
+			<TilingScale>24</TilingScale>
+		
+			<ColorMetalXZnYFar1>Textures\Voxels\Platinum_01_ForAxisXZ_distance_cm.dds</ColorMetalXZnYFar1>
+			<NormalGlossXZnYFar1>Textures\Voxels\Platinum_01_ForAxisXZ_distance_ng.dds</NormalGlossXZnYFar1>
+			<ExtXZnYFar1>Textures\Voxels\Platinum_01_ForAxisXZ_distance_add.dds</ExtXZnYFar1>
+			<Far1Distance>12</Far1Distance>
+			<Far1Scale>12</Far1Scale>		
+		
+			<Far2Distance>100</Far2Distance>
+			<Far2Scale>30</Far2Scale>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+
 		</VoxelMaterial>
 
 	</VoxelMaterials>

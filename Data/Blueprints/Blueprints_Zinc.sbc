@@ -12,13 +12,78 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Zinc" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.504" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.11" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.66" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="0.174" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.14" TypeId="Ingot" SubtypeId="Iron" />
 				<Item Amount="0.025" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="0.001" TypeId="Ingot" SubtypeId="Silver" />
-				<Item Amount="0.36" TypeId="Ingot" SubtypeId="Zinc" />
 			</Results>
-			<BaseProductionTimeInSeconds>3.79885714285714</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>3.798857143</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
+		<!-- 
+		Fast: 40% Return, -80% speed
+		Basic: 75% Return, -50% speed
+		Efficient: 100% Return
+		Survival Kit operates at 30% speed.
+		Subtract Ore times
+		-->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ZincOreToIngotFast</SubtypeId>
+			</Id>
+			<DisplayName>Zinc Ingot</DisplayName>
+			<Icon>Textures\GUI\Icons\zinc_fast.dds</Icon>
+			<Prerequisites>
+				<Item Amount="300" TypeId="Ore" SubtypeId="Zinc" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="79.2" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="20.88" TypeId="Ore" SubtypeId="Stone" />
+				<Item Amount="16.8" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.12" TypeId="Ore" SubtypeId="Silver" />
+			</Results>
+			<BaseProductionTimeInSeconds>68.095748574</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ZincOreToIngotBasic</SubtypeId>
+			</Id>
+			<DisplayName>Zinc Ingot</DisplayName>
+			<Icon>Textures\GUI\Icons\zinc_basic.dds</Icon>
+			<Prerequisites>
+				<Item Amount="150" TypeId="Ore" SubtypeId="Zinc" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="74.25" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="19.575" TypeId="Ore" SubtypeId="Stone" />
+				<Item Amount="15.75" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="2.8125" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.1125" TypeId="Ore" SubtypeId="Silver" />
+			</Results>
+			<BaseProductionTimeInSeconds>85.1196857175</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ZincOreToIngotEfficient</SubtypeId>
+			</Id>
+			<DisplayName>Zinc Ingot</DisplayName>
+			<Icon>Textures\GUI\Icons\zinc_efficient.dds</Icon>
+			<Prerequisites>
+				<Item Amount="25" TypeId="Ore" SubtypeId="Zinc" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="16.5" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="4.35" TypeId="Ore" SubtypeId="Stone" />
+				<Item Amount="3.5" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.625" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.025" TypeId="Ore" SubtypeId="Silver" />
+			</Results>
+			<BaseProductionTimeInSeconds>28.3732285725</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>

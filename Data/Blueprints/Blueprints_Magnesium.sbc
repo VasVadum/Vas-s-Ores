@@ -12,14 +12,11 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Magnesium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.68" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Iron" />
-				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Nickel" />
-				<Item Amount="0.21" TypeId="Ingot" SubtypeId="Magnesium" />
-				<Item Amount="0.06" TypeId="Ingot" SubtypeId="Silicon" />
-				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="0.48" TypeId="Ingot" SubtypeId="Magnesium" />
+				<Item Amount="0.45" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.07" TypeId="Ingot" SubtypeId="Silicon" />
 			</Results>
-			<BaseProductionTimeInSeconds>30.3784126984127</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>15.3784127</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>

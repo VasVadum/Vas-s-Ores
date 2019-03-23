@@ -12,13 +12,11 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.59" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.08" TypeId="Ingot" SubtypeId="Iron" />
-				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Nickel" />
-				<Item Amount="0.31" TypeId="Ingot" SubtypeId="Cobalt" />
-				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Zinc" />
+				<Item Amount="0.58" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="0.30" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.12" TypeId="Ingot" SubtypeId="Iron" />
 			</Results>
-			<BaseProductionTimeInSeconds>4.35460317460318</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>3.321269841</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>

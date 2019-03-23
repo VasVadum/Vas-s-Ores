@@ -2,26 +2,31 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<BlueprintClassEntries>
 	 <!-- Classes: LargeBlocks,SmallBlocks,Components,Ammo,BaseComponents,Electronics,ConstructionComponents
-	 ToolsIngots,CommonMetals,PreciousMetals,Solids,EnergeticIngots,Ice,OxygenBottles,HydrogenBottles -->
-	 
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Zinc Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Gold Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Cobalt Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Spodumene Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Iron Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Magnesium Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Nickel Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Platinum Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Silicon Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Silver Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Stone Furnace" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Uranium Furnace" />
+	 Tools,Ingots,CommonMetals,PreciousMetals,Solids,EnergeticIngots,Ice,OxygenBottles,HydrogenBottles -->
 
 		<Entry Class="Ingots" BlueprintSubtypeId="SpodumeneOreToIngot" />
 		<Entry Class="Ingots" BlueprintSubtypeId="ZincOreToIngot" />
 
 		<Entry Class="Solids" BlueprintSubtypeId="SpodumeneOreToIngot" />
 		<Entry Class="CommonMetals" BlueprintSubtypeId="ZincOreToIngot" />
+		
+		<Entry Class="BasicIngots" BlueprintSubtypeId="IronOreToIngotEfficient" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="SiliconOreToIngotEfficient" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="NickelOreToIngotEfficient" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="ZincOreToIngotEfficient" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="StoneOreToIngotEfficient" />
+		
+		<Entry Class="BasicIngots" BlueprintSubtypeId="IronOreToIngotBasic" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="SiliconOreToIngotBasic" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="NickelOreToIngotBasic" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="ZincOreToIngotBasic" />
+		
+		<Entry Class="BasicIngots" BlueprintSubtypeId="IronOreToIngotFast" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="SiliconOreToIngotFast" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="NickelOreToIngotFast" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="ZincOreToIngotFast" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="StoneOreToIngotFast" />
+		<Entry Class="BasicIngots" BlueprintSubtypeId="GravelSifting" />
 
 	</BlueprintClassEntries>
 </Definitions>

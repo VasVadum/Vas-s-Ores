@@ -12,14 +12,14 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Spodumene" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.65" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.04" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="0.53" TypeId="Ingot" SubtypeId="Lithium" />
+				<Item Amount="0.24" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.11" TypeId="Ingot" SubtypeId="Zinc" />
 				<Item Amount="0.07" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="0.04" TypeId="Ingot" SubtypeId="Iron" />
 				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Silver" />
-				<Item Amount="0.21" TypeId="Ingot" SubtypeId="Spodumene (Lithium)" />
-				<Item Amount="0.02" TypeId="Ingot" SubtypeId="Zinc" />
 			</Results>
-			<BaseProductionTimeInSeconds>18.7250793650794</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>18.72507937</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>
